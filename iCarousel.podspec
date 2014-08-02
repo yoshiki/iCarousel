@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = "iCarousel"
-  s.version      = "1.7.6.1"
+  s.version      = "1.7.6.2"
   s.license      = { :type => 'zlib', :file => 'LICENCE.md' }
   s.summary      = "A class designed to simplify the implementation of various types of carousel."
   s.homepage     = "https://github.com/yoshiki/iCarousel"
