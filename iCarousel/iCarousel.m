@@ -96,7 +96,7 @@
 @property (nonatomic, assign, getter = isScrolling) BOOL scrolling;
 @property (nonatomic, assign) NSTimeInterval startTime;
 @property (nonatomic, assign) CGFloat startVelocity;
-@property (nonatomic, weak) NSTimer *timer;
+@property (nonatomic, unsafe_unretained) NSTimer *timer;
 @property (nonatomic, assign, getter = isDecelerating) BOOL decelerating;
 @property (nonatomic, assign) CGFloat previousTranslation;
 @property (nonatomic, assign, getter = isWrapEnabled) BOOL wrapEnabled;
